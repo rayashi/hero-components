@@ -1,0 +1,113 @@
+* {
+  font-family: "Jockey One", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #3130308b;
+}
+
+nav ul {
+  position: relative;
+  padding: 0 100px;
+  display: flex;
+  justify-content: end;
+  font-size: 25px;
+  color: white;
+}
+
+#logo {
+  color: #fff200;
+  position: absolute;
+  left: 100px;
+}
+
+.main {
+  background: radial-gradient(circle at 100% 0%, #fff20020, transparent 50%),
+    radial-gradient(circle at 10% 110%, #fff20030, transparent 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 100px;
+  height: 100vh;
+  background-color: #3b3b3b;
+  color: #fff200;
+}
+
+.copy h1 {
+  font-size: 150px;
+  margin: 0;
+  letter-spacing: 30px;
+}
+.copy h5 {
+  margin-left: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.copy-illustration:last-child {
+  opacity: 0;
+}
+
+.copy-illustration {
+  position: absolute;
+  right: 100px;
+  max-width: 600px;
+  transition-property: opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+.members {
+  margin-left: 100px;
+}
+
+.members h5 {
+  font-size: 20px;
+  color: black;
+}
+
+.members .avatars {
+  display: flex;
+}
+
+.avatar:nth-of-type(1n + 2),
+.avatar-count {
+  margin-left: -30px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.avatar-count {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #3b3b3b;
+  background-color: white;
+  border-radius: 25px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0 20px;
+}
+
+.members button {
+  margin-left: 20px;
+}
