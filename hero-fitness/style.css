@@ -64,6 +64,7 @@ nav ul {
   position: absolute;
   right: 100px;
   max-width: 600px;
+  max-height: 600px;
   transition-property: opacity;
   transition-duration: 600ms;
   transition-timing-function: ease-in-out;
